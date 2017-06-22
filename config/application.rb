@@ -17,7 +17,7 @@ Bundler.require(*Rails.groups)
 
 module Eventsandmoments
   class Application < Rails::Application
-    config.assets.paths << Rails.root.join('vendor', 'assets', 'images', 'stylesheets','javascripts')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'images', 'stylesheets','javascripts', 'fonts')
     config.assets.precompile += %w( .svg .eot .woff .ttf .png)
     config.eager_load_paths += [
       "app/client",
