@@ -75,6 +75,12 @@ GEM
     haml (5.0.1)
       temple (>= 0.8.0)
       tilt
+    haml-rails (1.0.0)
+      actionpack (>= 4.0.1)
+      activesupport (>= 4.0.1)
+      haml (>= 4.0.6, < 6.0)
+      html2haml (>= 1.0.1)
+      railties (>= 4.0.1)
     html2haml (2.2.0)
       erubis (~> 2.7.0)
       haml (>= 4.0, < 6)
@@ -202,6 +208,7 @@ DEPENDENCIES
   erb2haml
   font-awesome-rails
   haml
+  haml-rails
   html2haml
   ionicons-rails
   jbuilder (~> 2.5)
@@ -220,4 +227,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   1.13.6
+   1.15.1
