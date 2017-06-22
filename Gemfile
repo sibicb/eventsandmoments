@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.4.1'
+
 gem 'coffee-rails', '~> 4.2'
 gem 'pg'
 gem 'puma', '~> 3.0'
@@ -15,6 +17,7 @@ gem 'font-awesome-rails'
 gem 'ionicons-rails'
 gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
+gem 'jquery-turbolinks'
 gem 'turbolinks', '~> 5'
 
 # gem 'redis', '~> 3.0'
