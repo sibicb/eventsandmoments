@@ -1,0 +1,27 @@
+%nav.navbar.navbar-default.navbar-fixed-top{:role => "navigation"}
+  .container
+    / Brand and toggle get grouped for better mobile display
+    .navbar-header
+      %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      = link_to '#HOME', class: 'navbar-brand' do
+        = image_tag "logo.png"
+    / Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-right
+        / NAV
+        %li
+          = link_to 'HOME', '#HOME'
+        %li
+          = link_to 'ABOUT', '#ABOUT'
+        %li
+          = link_to 'PACKAGES', '#PACKAGES'
+        %li
+          = link_to 'AFFILATES', '#AFFILATES'
+        %li
+          = link_to 'CONTACT US', '#CONTACT'
+    / /.navbar-collapse
+  / /.container-

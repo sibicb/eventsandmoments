@@ -1,0 +1,15 @@
+%section#HOME
+  #video-container
+    %video#bgvid.fullscreen{poster: asset_url('bgposter.jpg'),playsinline: '', autoplay: '', loop: '', muted: ''}
+      %source{src: asset_url('bgmovie.mp4'), type: 'video/mp4'}
+  .section_overlay
+    = render 'shared/navbar'
+    .container.home-container
+      .row
+        .col-md-12
+          .home.text-center
+            %span
+              = image_tag "logo.png"
+            %span
+              %h1 Events and Moments
+              %p by Raz Mendoza
