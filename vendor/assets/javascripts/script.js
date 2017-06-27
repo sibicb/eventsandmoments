@@ -138,7 +138,8 @@ $(document).ready(function() {
         var padTop = widnowHeight - containerHeight;
         $(".home-container").css({
             'padding-top': Math.round(padTop / 2) + 'px',
-            'padding-bottom': Math.round(padTop / 2) + 'px'
+            'padding-bottom': Math.round(padTop / 2) + 'px',
+            'position' : 'relative'
         });
     }, 10)
 });
