@@ -1,24 +1,53 @@
 %section.copyright
   %h2
   .container
-    .row
-      .col-md-4
-        .copy_right_text
-          / COPYRIGHT TEXT
-          %p= "Copyright © #{Time.current.year}" 
-          %p All Rights Reserved.
-          %p
-            A theme by
-            %a{:href => "https://dcrazed.com/", :target => "_blank"} Dcrazed
-        
-      .col-md-6
+    .row   
+      .col-md-8
         .copy_right_text
           %p Contact Us
-          %p E: eventsnmomentsph@gmail.com
-          %p M: +63 917 326 0144 | +63 999 998 5103
-        
+          %span.pe-7s-mail.text-muted
+          %span.text-muted info.eventsandmoments@gmail.com
+          %br
+          %span.pe-7s-call.text-muted
+          %span.text-muted +63 02 940 6900
+          %br
+          %span.pe-7s-phone.text-muted
+          %span.text-muted +63 917 326 0144 | +63 999 998 5103
+          %br
+          %span.pe-7s-home.text-muted
+          %span.text-muted 2nd Floor, #60 Santolan Rd. Gen. T. De Leon, Valenzuela City
+
+        / .copy_right_text
+        /   %br
+        /   %p Copyright © 2016. 
+        /   %p All Rights Reserved.
+        /   %p
+        /     A theme by
+        /     %a{:href => "https://dcrazed.com/", :target => "_blank"} Dcrazed
+      .col-md-2
+        .social_icons
+          %ul
+            %li
+              %a{:href => "https://www.facebook.com/EventsandMomentsbyRazMendoza/"}
+                %i.fa.fa-facebook
+            %li
+              %a{:href => "https://www.instagram.com/eventsandmomentsph/"}
+                %i.fa.fa-instagram
+            / %li
+            /   %a{:href => ""}
+            /     %i.fa.fa-twitter
+            / %li
+            /   %a{:href => ""}
+            /     %i.fa.fa-dribbble
+            / %li
+            /   %a{:href => ""}
+            /     %i.fa.fa-behance
+            / %li
+            /   %a{:href => ""}
+            /     %i.fa.fa-youtube-play
         
       .col-md-2
         .scroll_top
           = link_to '#HOME' do
             %i.fa.fa-angle-up
+

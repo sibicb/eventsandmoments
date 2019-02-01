@@ -1,0 +1,22 @@
+%section.subscribe.parallax.subscribe-parallax{"data-stellar-background-ratio" => "0.6", "data-stellar-vertical-offset" => "20"}
+  .section_overlay.wow.lightSpeedIn
+    .container
+      .row
+        .col-md-10.col-md-offset-1
+          / Start Subscribe Section Title
+          .section_title
+            %h2 SUBSCRIBE US
+            %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+          / End Subscribe Section Title
+    .container
+      .row.wow.lightSpeedIn
+        .col-md-6.col-md-offset-3
+          / SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES
+          .subscription-success
+          .subscription-error
+          %form#mc-form.subscribe_form
+            .form-group
+              / EMAIL INPUT BOX
+              %input#mce-EMAIL.required.email.form-control{:name => "EMAIL", :placeholder => "Enter Email Address", :type => "email", :value => ""}/
+            / SUBSCRIBE BUTTON
+            %button.btn.btn-default.subs-btn{:type => "submit"} Submit

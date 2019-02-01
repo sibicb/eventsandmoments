@@ -1,0 +1,49 @@
+%section#CONTACT.contact.page
+  .section_overlay
+    .container
+      .col-md-10.col-md-offset-1.wow.bounceIn
+        / Start Contact Section Title
+        .section_title
+          %h2 Get in touch
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+    .contact_form.wow.bounceIn
+      .container
+        / START ERROR AND SUCCESS MESSAGE
+        .form_error.text-center
+          .name_error.hide.error Please Enter your name
+          .email_error.hide.error Please Enter your Email
+          .email_val_error.hide.error Please Enter a Valid Email Address
+          .message_error.hide.error Please Enter Your Message
+        .Sucess
+        / END ERROR AND SUCCESS MESSAGE
+        / FORM
+        %form{:role => "form"}
+          .row
+            .col-md-4
+              %input#name.form-control{:placeholder => "Name", :type => "text"}/
+              %input#email.form-control{:placeholder => "Email", :type => "email"}/
+              %input#subject.form-control{:placeholder => "Subject", :type => "text"}/
+            .col-md-8
+              %textarea#message.form-control{:cols => "10", :placeholder => "  Message Texts...", :rows => "25"}
+              %button.btn.btn-default.submit-btn.form_submit{:type => "button"} SEND MESSAGE
+        / END FORM
+    .container
+      .row
+        .col-md-12.wow.bounceInLeft
+          .social_icons
+            %ul
+              %li
+                %a{:href => "https://www.facebook.com/EventsandMomentsbyRazMendoza/"}
+                  %i.fa.fa-facebook
+              / %li
+              /   %a{:href => ""}
+              /     %i.fa.fa-twitter
+              / %li
+              /   %a{:href => ""}
+              /     %i.fa.fa-dribbble
+              / %li
+              /   %a{:href => ""}
+              /     %i.fa.fa-behance
+              / %li
+              /   %a{:href => ""}
+              /     %i.fa.fa-youtube-play
