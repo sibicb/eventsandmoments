@@ -551,7 +551,11 @@ div.carousel-inner .item img {
 -----------------------------------------*/
 
 .call_to_action {
-    background-color: #1a1a1a;
+    // background-color: #1a1a1a;
+    background-image: image-url("members.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -578,6 +582,11 @@ div.carousel-inner .item img {
 .btn-action:hover {
     background: #FF6B80;
     border-color: #FF6B80;
+}
+.text-bg {
+    background: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin: auto;
 }
 
 /*---------------------------------------
